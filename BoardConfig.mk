@@ -23,4 +23,4 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 512
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
-include device/generic/common/BoardConfig.mk
+include device/generic/pc_common/BoardConfig.mk
