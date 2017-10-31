@@ -24,4 +24,7 @@ PRODUCT_DEVICE := pc_x86_64
 PRODUCT_MODEL := Generic Android-x86_64
 TARGET_KERNEL_CONFIG := android-x86_64_defconfig
 
+# Get SuperSU
+$(call inherit-product-if-exists, vendor/supersu/vendor_x64.mk)
+
 PC_BUILD := true
